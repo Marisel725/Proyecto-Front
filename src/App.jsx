@@ -23,6 +23,7 @@ import Favoritos from './components/header/Favoritos/Favoritos';
 import Categorias from './components/categorias/Categorias';
 import Whatsapp from './components/Buttons/Whatsapp';
 import SobreNosotros from './components/SobreNosotros/SobreNosotros';
+import SubHeader from './components/header/SubHeader';
 
 
 /*Se agrega este componente de envoltura de routes para hacer que en cada cambio de pagina
@@ -42,6 +43,7 @@ function App() {
   return (
     <>
       <Header />
+      <SubHeader/>
       <Whatsapp/>    
       <WrapperRoutes>
         <Routes>

@@ -37,7 +37,6 @@ body {
   display: flex;
   flex-direction: column;
   min-height: calc(100vh - 130px);
-  padding-top: var(--padding-top-vs-header-mobile);
   background: rgba(var(--gris-claro-rgb), 0.3);
 }
 
@@ -247,7 +246,7 @@ body {
 
 @media (min-width: 431px) {
   .container-middle{
-    padding-top: var(--padding-top-vs-header-desktop);
+    padding-top: 2px;
   }
 }
 

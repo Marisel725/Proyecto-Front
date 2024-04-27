@@ -14,7 +14,7 @@
     font-family: var(--fuente-principal);
     font-size: 1.8rem;
     font-weight: 700;
-    padding: 6px;
+    padding: 10px;
     background: var(--gris-claro);
     border-color: #000040;
     border-style: solid;
@@ -24,6 +24,7 @@
     height: 2.3rem;
     width: 2.3rem;
     user-select: none;
+    margin: 0.7rem
 }
 
 .HamburgMenuUser-avatar:hover{

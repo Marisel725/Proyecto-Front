@@ -19,8 +19,8 @@
 .buscador-seccion-calendario .react-calendar .react-calendar__tile--rangeStart {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
   /*background: #006edc;*/
   background: var(--verde-oscuro);
   color: white;
@@ -63,7 +63,6 @@
 }
 
 .container-buscador {
-  margin-top: 20px;
   display: flex;
   flex-direction: column;
   height: 37vw;
@@ -71,7 +70,7 @@
   background-size: 100vw;
   background-repeat: no-repeat;
   position: relative;
-  border-radius: 20px;
+  border-radius: 10px;
   transition: background-image 0.5s ease-in-out;
 }
 
@@ -154,13 +153,22 @@
   color: #fff;
   text-align: center;
   width: 80vw;
-  height: 10vw;
   font-size: 4vw;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  transition: opacity 1.5s ease-in-out;;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
-
+.titulo-slogan-secundario{
+  font-family: Arial, sans-serif;
+  font: 100;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  width: 40vw;
+  font-size: 3vw;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  transition: opacity 1.5s ease-in-out;
+}
 /*
   .forms-busca-tu-bici {
     font-family: var(--fuente-principal);

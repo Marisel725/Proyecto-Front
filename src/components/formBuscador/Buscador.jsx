@@ -184,13 +184,12 @@ const Buscador = () => {
         if (returnX) {
             return <span>X</span>
         }
-
     }
 
     return (
         <>
             <div className='container-buscador' onClick={handlerContainerBuscador} style={containerStyle}>
-                <h1 className='titulo-slogan'>{fraseInicio}</h1>
+                <h1 className='titulo-slogan'>Encuentra tu bicicleta ideal</h1>
                 <form className='form-buscador' onSubmit={handleSubmit}>
                     <input className="forms-busca-tu-bici"
                         type="text"
@@ -211,6 +210,7 @@ const Buscador = () => {
                         Buscar
                     </button>
                 </form>
+                <h1 className='titulo-slogan-secundario'>{fraseInicio}</h1>
 
                 {mensajeOk &&
                     <div className='buscador-tooltip-ok'>
@@ -235,6 +235,7 @@ const Buscador = () => {
                         tileContent={tileContentCalendario}
                     />
                 </div>
+                
             </div>
         </>
     )
